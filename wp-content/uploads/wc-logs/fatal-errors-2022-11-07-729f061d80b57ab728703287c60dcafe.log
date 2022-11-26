@@ -1,0 +1,45 @@
+2022-11-07T02:40:32+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Color" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\ryancv-plugin\elementor\widgets\fun-facts.php:154
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\RyanCV_FunFacts_Widget->_register_controls()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\ryancv-plugin\elementor\widgets\fun-facts.php on line 154
+
+2022-11-07T02:40:52+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Color" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\ryancv-plugin\elementor\widgets\fun-facts.php:154
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\RyanCV_FunFacts_Widget->_register_controls()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\ryancv-plugin\elementor\widgets\fun-facts.php on line 154
+
+2022-11-07T03:04:58+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Color" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\ryancv-plugin\elementor\widgets\fun-facts.php:154
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\RyanCV_FunFacts_Widget->_register_controls()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\ryancv-plugin\elementor\widgets\fun-facts.php on line 154
+
